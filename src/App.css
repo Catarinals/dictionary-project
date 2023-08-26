@@ -6,6 +6,11 @@ a {
   color: #66DBFB;
 }
 
+.App {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
 .App h4 {
   font-size: 20px;
   color: #66DBFB;
