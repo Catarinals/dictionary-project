@@ -17,7 +17,12 @@ export default function App() {
           <Dictionary defaultKeyword="sunrise" />
         </main>
         <footer className="App-footer">
-          <small>Coded by Catarina Santos</small>
+          <small>
+            Coded by{" "}
+            <a href="https://catarina-portfolio-cls.netlify.app">
+              Catarina Santos
+            </a>
+          </small>
         </footer>
       </div>
     </div>
