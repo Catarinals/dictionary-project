@@ -50,12 +50,12 @@ export default function Dictionary(props) {
     return (
       <div className="Dictionary">
         <section>
-          <h3>What word do you want to look up?</h3>
+          <h3>Search for a word...</h3>
           <form onSubmit={handleSubmit}>
             <input type="search" id="search" onChange={handleKeywordChange} />
           </form>
           <div className="hint">
-            suggested words: pulchritudinous, sunset, bedevil, wine...
+            Suggested: pulchritudinous, sunset, bedevil, wine...
           </div>
         </section>
         <Results results={results} />

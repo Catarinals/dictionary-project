@@ -14,7 +14,7 @@ export default function App() {
           </span>
         </header>
         <main className="dictionary">
-          <Dictionary defaultKeyword="hello" />
+          <Dictionary defaultKeyword="sunrise" />
         </main>
         <footer className="App-footer">
           <small>Coded by Catarina Santos</small>
