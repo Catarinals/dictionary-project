@@ -52,7 +52,13 @@ export default function Dictionary(props) {
         <section>
           <h3>Search for a word...</h3>
           <form onSubmit={handleSubmit}>
-            <input type="search" id="search" onChange={handleKeywordChange} />
+            <input type="search" id="search" onChange={handleKeywordChange} />{" "}
+            <input
+              type="submit"
+              className="Button"
+              id="submit"
+              value="Search"
+            />
           </form>
           <div className="hint">
             Suggested: pulchritudinous, sunset, bedevil, wine...

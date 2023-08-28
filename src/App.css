@@ -9,6 +9,7 @@ a {
 .App {
   max-width: 960px;
   margin: 0 auto;
+  display: flex;
 }
 
 .App h4 {
@@ -47,9 +48,10 @@ a {
 
 .App-footer {
   text-align: center;
-  margin: 30px 0;
+  margin: 10px 0;
   color: #66DBFB;
   font-family: "Bricolage Grotesque";
+  font-size: small;
 }
 
 .App-footer a {
