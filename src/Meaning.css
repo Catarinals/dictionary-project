@@ -3,6 +3,9 @@
   line-height: 1.5;
 }
 
+.Meaning .Definition {
+  font-size: 15px;
+}
 
 .Meaning .example {
   color: #70757a;
